@@ -1,5 +1,5 @@
 {% set name = "lelwel" %}
-{% set version = "0.6.2" %}
+{% set version = "0.6.4" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://github.com/0x2a-42/lelwel/archive/v{{ version }}.tar.gz
-  sha256: 29a6601cdc05acc9e718c50af02c41a60350cc81076a2aae0709265fc5b982f6
+  sha256: 9b684ce08e82c4074d19620e6494218c8808bcb017582949eb638ca84b554f6c
 
 build:
   number: 0
