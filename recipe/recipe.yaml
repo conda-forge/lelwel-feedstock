@@ -1,5 +1,5 @@
 context:
-  version: 0.6.4
+  version: "0.7.1"
 
 package:
   name: lelwel
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://github.com/0x2a-42/lelwel/archive/v${{ version }}.tar.gz
-  sha256: 9b684ce08e82c4074d19620e6494218c8808bcb017582949eb638ca84b554f6c
+  sha256: de2120a9241c302e4c9557d49d7e7e369619c3b8a58c651704ea5bceaeaa3a67
 
 build:
   number: 0
